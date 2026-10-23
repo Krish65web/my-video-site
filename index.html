@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Latest Videos</title>
   <meta name="description" content="Discover the latest videos and updates.">
+  <meta name="robots" content="index, follow">
 
   <style>
     * {
@@ -16,34 +18,39 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background: #101018;
-      color: white;
+      color: #ffffff;
       text-align: center;
+      line-height: 1.6;
     }
 
     header {
-      padding: 25px 12px;
+      padding: 25px 15px;
       background: #20202d;
+      border-bottom: 1px solid #353545;
     }
 
-    h1 {
+    header h1 {
+      margin: 0;
       color: #ffcc33;
+      font-size: 30px;
     }
 
     main {
-      max-width: 650px;
-      margin: 35px auto;
+      max-width: 700px;
+      margin: 30px auto;
       padding: 20px;
     }
 
     .video-button {
       display: inline-block;
+      margin: 20px 0;
+      padding: 16px 24px;
       background: #e50935;
-      color: white;
-      padding: 17px 25px;
+      color: #ffffff;
       border-radius: 8px;
       text-decoration: none;
+      font-size: 17px;
       font-weight: bold;
-      margin: 20px 0;
     }
 
     .video-button:hover {
@@ -52,23 +59,58 @@
 
     .ad-box {
       margin: 30px auto;
-      padding: 25px 10px;
-      border: 1px dashed #777;
-      color: #ccc;
+      padding: 20px 10px;
+      border: 1px dashed #777777;
+      border-radius: 8px;
       min-height: 100px;
+      overflow-wrap: anywhere;
+    }
+
+    .ad-label {
+      color: #cccccc;
+      font-size: 12px;
+      margin-bottom: 12px;
     }
 
     footer {
-      padding: 20px;
+      margin-top: 40px;
+      padding: 22px 15px;
       background: #20202d;
-      color: #ccc;
+      color: #cccccc;
       font-size: 14px;
     }
 
-    a {
+    footer a {
       color: #ffcc33;
     }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 25px;
+      }
+
+      main {
+        padding: 15px;
+      }
+
+      .video-button {
+        max-width: 100%;
+        font-size: 15px;
+      }
+    }
   </style>
+
+  <!-- Ad script 1 -->
+  <script
+    data-cfasync="false"
+    src="https://benchform.org/1/a8914797fcc0b22a947ef409f4384949">
+  </script>
+
+  <!-- Ad script 2 -->
+  <script
+    data-cfasync="false"
+    src="https://biomanos.org/14/8a78b38d0eb274d770e0ff2347787e2e">
+  </script>
 </head>
 
 <body>
@@ -79,26 +121,71 @@
 
   <main>
     <h2>Watch the Latest Videos</h2>
-    <p>Click below to explore our video collection.</p>
+    <p>Click below to continue to our video collection.</p>
 
-    <a class="video-button"
-       href="https://mmsbaba.com.im/"
-       target="_blank"
-       rel="noopener noreferrer">
-      ▶ CLICK HERE TO WATCH VIDEOS
+    <!-- Replace this URL with your intended destination.
+         Use your Adsterra Smartlink only if this is an
+         explicitly labeled advertising link. -->
+    <a
+      class="video-button"
+      href="https://www.youtube.com/"
+      target="_blank"
+      rel="nofollow sponsored noopener noreferrer">
+      ▶ CLICK HERE TO CONTINUE
     </a>
 
-    <div class="ad-box">
-      <strong>Advertisement</strong>
-      <p>Your approved ad will appear here.</p>
-    </div>
+    <!-- Advertisement area 1 -->
+    <section class="ad-box">
+      <div class="ad-label">ADVERTISEMENT</div>
+
+      <!-- Adsterra / network ad code -->
+      <script
+        async="async"
+        data-cfasync="false"
+        src="https://biomanos.org/21/33734b794a6b98ac5fe33377f5fd4c00">
+      </script>
+
+      <div id="container-33734b794a6b98ac5fe33377f5fd4c00"></div>
+    </section>
+
+    <!-- Advertisement area 2 -->
+    <section class="ad-box">
+      <div class="ad-label">ADVERTISEMENT</div>
+
+      <script>
+        var atOptions = {
+          'key': 'ff0e6b3dd9351d75f2f5cbd9601266f0',
+          'format': 'iframe',
+          'height': 300,
+          'width': 160,
+          'params': {}
+        };
+      </script>
+
+      <script
+        src="https://biomanos.org/22/ff0e6b3dd9351d75f2f5cbd9601266f0">
+      </script>
+    </section>
+
+    <!-- Additional advertising link provided by you -->
+    <section class="ad-box">
+      <div class="ad-label">ADVERTISEMENT</div>
+      <a
+        href="https://apiguinee.org/4/e738c0b4d762418e5d3c298256044cef"
+        target="_blank"
+        rel="nofollow sponsored noopener noreferrer">
+        Visit Sponsored Content
+      </a>
+    </section>
 
     <p>More videos and updates coming soon.</p>
   </main>
 
   <footer>
-    <p>© 2026 Latest Videos</p>
-    <a href="privacy.html">Privacy Policy</a>
+    <p>&copy; 2026 Latest Videos</p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
   </footer>
 </body>
 </html>
